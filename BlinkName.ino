@@ -55,7 +55,7 @@ void encodeCharacterToMorse(char character) {
     case 'x': longBlink(); shortBlink(); shortBlink(); longBlink(); break;
     case 'y': longBlink(); shortBlink(); longBlink(); longBlink(); break;
     case 'z': longBlink(); longBlink(); shortBlink(); shortBlink(); break;
-    // Add cases for additional characters if needed
+  
     default: break;
   }
 }
